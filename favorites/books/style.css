@@ -1,0 +1,97 @@
+/* 🌟 Full Page Background */
+body {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(135deg, #fffaf3, #fbe7d1);
+    color: #5a4632;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* 🌟 Central Container (Holds List + Book Details) */
+.container {
+    background: #fff8e1;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    width: 90%;
+    max-width: 800px;
+    border: 2px solid #d4a373;
+}
+
+/* 📚 Book List Items */
+.list-group-item {
+    cursor: pointer;
+    background: #f4e2d8;
+    color: #5a4632;
+    transition: background 0.3s, transform 0.2s;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #d4a373;
+}
+
+/* Hover & Active Effects */
+.list-group-item:hover {
+    background: #e3c5ab;
+    transform: scale(1.02);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.list-group-item:active {
+    background: #d4a373;
+}
+
+/* 📖 Book Details Section */
+#bookDetails {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff8e1;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    border: 2px solid #d4a373;
+    text-align: center;
+}
+
+/* Book Title */
+#bookTitle {
+    font-size: 1.8em;
+    color: #5a4632;
+    margin-bottom: 5px;
+}
+
+/* Author Name */
+#bookAuthor {
+    font-size: 1.2em;
+    color: #7a5d47;
+    margin-bottom: 10px;
+}
+
+/* 🖼️ Book Images */
+img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 3px solid #d4a373;
+}
+
+/* 🎯 Clickable Icon */
+.click-icon {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #d4a373;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+/* Click Icon Hover */
+.click-icon:hover {
+    transform: scale(1.1);
+    border-color: #b37b4d;
+}

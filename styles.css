@@ -1,0 +1,42 @@
+.content{
+    body {
+        background: rgb(238,174,202) !important;
+        background: -moz-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%) !important;
+        background: -webkit-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%) !important;
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%) !important;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1) !important;
+    }
+    
+    
+}
+.sidebar {
+    background: linear-gradient(to bottom, #d4a5ff, #7abaff); /* Light violet to blue */
+}
+
+.mb-1{
+    font-size: 5px;
+}
+
+.sidebar {
+    font-size: 60px; /* Adjust as needed */
+}
+
+
+.sidebar a {
+    color: white !;
+}
+
+.btn-toggle-nav a {
+    text-decoration: none !important;
+    color: black; /* Default color */
+    transition: color 0.2s ease-in-out; /* Smooth transition */
+}
+
+.btn-toggle-nav a:hover {
+    color: white !important; /* Turns white on hover */
+}
+
+.btn-toggle {
+    font-size: 20px !important; /* Larger font for main categories */
+    font-weight: bold; /* Makes them stand out */
+}

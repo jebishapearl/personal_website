@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Series Section</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, black, teal, purple);
+            min-height: 100vh;
+            margin: 0;
+            color: white; /* Ensures text is readable */
+        }
+        .tab-content {
+            color: #333333; /* Dark font for the content inside tabs */
+            background-color: #f8f9fa; /* Light grey background for contrast */
+            padding: 15px;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            
+            margin-top: 10px;
+        }
+        .nav-tabs .nav-link {
+            color:  #ffffff !important;
+        }
+        .nav-tabs .nav-link.active {
+            background-color: #007bff;
+            
+            color: white !important;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="tab" href="#sitcoms">Sitcoms</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#thriller">Thriller</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#others">Others</a>
+            </li>
+        </ul>
+        
+        <div class="tab-content mt-3 p-3 bg-light rounded">
+            <div class="tab-pane fade show active" id="sitcoms">
+                <ul>
+                    <li>Brooklyn Nine-Nine</li>
+                    <li>How I Met Your Mother</li>
+                    <li>Modern Family</li>
+                    <li>The Good Place</li>
+                    <li>The Office</li>
+                    <li>Two and a Half Men</li>
+                    <li>Schitt's Creek</li>
+                    <li>Friends</li>
+                    <li>The Big Bang Theory</li>
+                    <li>Superstore</li>
+                    <li>New Girl</li>
+                </ul>
+            </div>
+            <div class="tab-pane fade" id="thriller">
+                <ul>
+                    <li>Paradise (Hulu)</li>
+                    <li>Mentalist</li>
+                    <li>How to Get Away with Murder</li>
+                    <li>Person of Interest</li>
+                    <li>Suits</li>
+                    <li>Dark</li>
+                    <li>Stranger Things</li>
+                    <li>The Originals</li>
+                </ul>
+            </div>
+            <div class="tab-pane fade" id="others">
+                <ul>
+                    <li>Fleabag</li>
+                    <li>Young Sheldon</li>
+                    <li>Umbrella Academy</li>
+                    <li>Never Have I Ever</li>
+                    <li>Nobody Wants This</li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

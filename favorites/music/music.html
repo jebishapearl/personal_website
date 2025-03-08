@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Favorite music</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background: linear-gradient(to bottom, #fcd5ba, #ffb6a3);
+        }
+        .container {
+            margin-top: 40px;
+        }
+        .card {
+            transition: transform 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card-img-top {
+    width: 100%;  /* Ensures image fills card width */
+    height: 200px; /* Set a fixed height for all images */
+    object-fit: cover; /* Crops to fit while maintaining aspect ratio */
+}
+
+        .list-group-item a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+        .list-group-item a:hover {
+            color: #6a89cc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container text-center">
+        <h1 class="mb-4 text-white">🎵 My Playlist 🎵</h1>
+
+        <div class="row justify-content-center row g-4">
+            <!-- Card 1 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                <div class="card shadow-lg">
+                    <img src="./molly.jpeg" class="card-img-top" alt="Playlist 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Malayalam</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="https://youtu.be/5VSGggCyQd4?si=sNW4t12ZTSyQ_1MD" target="_blank">Cherathukal</a></li>
+                        <li class="list-group-item"><a href="https://youtu.be/yNEUELnRlzc?si=TqLJUXTcQsG9tqtg" target="_blank">Neermathalpoo</a></li>
+                        <li class="list-group-item"><a href="https://youtu.be/YJZZLmOPBvg?si=pxMVBG-4w7ut5g1-" target="_blank">Ennodu koode</a></li>
+                        <li class="list-group-item"><a href="https://youtu.be/AbNo_x-Ov9k?si=3mY_D0FeNMnLF_G2" target="_blank">Tharapadhamake</a></li>
+                        <li class="list-group-item"><a href="https://youtu.be/GYphFTdAZXM?si=88gFLcR269EKPhWK" target="_blank">Chandarmizhi</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                <div class="card shadow-lg">
+                    <img src="./bolly.jpeg" class="card-img-top" alt="Playlist 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Hindi</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="https://youtu.be/hacByYwJ_a4?si=JpX6MfsAPwAuUBQg" target="_blank">Tum kya mile</a></li>
+                        <li class="list-group-item"><a href="https://youtu.be/bzSTpdcs-EI?si=z1zM3o7ZI5nWfMot" target="_blank">Channa mereya</a></li>
+                        <li class="list-group-item"><a href="https://youtu.be/PFVwNbhVqkw?si=yXeb3VxocEqVNPpY" target="_blank">Nazrein milana</a></li>
+                        <li class="list-group-item"><a href="https://youtu.be/VkJlv0m6els?si=TOmsYr263HPmNLHR" target="_blank">Pehli baar</a></li>
+                        <li class="list-group-item"><a href="https://youtu.be/NFsEqOBG51M?si=d4eU_Xfs6Fe9bSIs" target="_blank">Aaj se teri</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                <div class="card shadow-lg">
+                    <img src="./holly.jpeg" class="card-img-top" alt="Playlist 3">
+                    <div class="card-body">
+                        <h5 class="card-title">English</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="https://youtu.be/qN4ooNx77u0?si=nC5i6y07Q9jFD0Q0" target="_blank">Sign of the times</a></li>
+                        <li class="list-group-item"><a href="https://youtu.be/KJc-qBKCtFI?si=cEtEIIg7J4rU7kYD" target="_blank">Seeing blind</a></li>
+                        <li class="list-group-item"><a href="https://youtu.be/ujNeHIo7oTE?si=TRfa8K-wHRTyWO91" target="_blank">With or without you</a></li>
+                        <li class="list-group-item"><a href="https://youtu.be/l0q7MLPo-u8?si=RNVeA50diHk5AWOT" target="_blank">Sound of silence</a></li>
+                        <li class="list-group-item"><a href="https://youtu.be/pEY-GPsru_E?si=FpfvgvfpkOgsZiId" target="_blank">Seven</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                <div class="card shadow-lg">
+                    <img src="./kolly.jpeg" class="card-img-top" alt="Playlist 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Tamil</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="https://youtu.be/YFYiTS46x-8?si=z0GQNePpkD1g0OQr" target="_blank">Hosanna</a></li>
+                        <li class="list-group-item"><a href="https://youtu.be/FzLpP8VBC6E?si=MGm0PednAWKT_Vf0" target="_blank">Nenjukkul</a></li>
+                        <li class="list-group-item"><a href="https://youtu.be/5RsrErWWf24?si=d7EerZ2Pg0DXgqlG" target="_blank">Naan pizhai</a></li>
+                        <li class="list-group-item"><a href="https://youtu.be/x0DJHxlMNUs?si=euLzG0k8VDLF68dT" target="_blank">Mogathirai</a></li>
+                        <li class="list-group-item"><a href="https://youtu.be/UPQZ4vuvW2s?si=Sf0g88kvWuKjj2r6" target="_blank">Munbe va</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                <div class="card shadow-lg">
+                    <img src="./tolly.jpeg" class="card-img-top" alt="Playlist 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Telugu</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="https://youtu.be/yzb41I5Pihk?si=tt4xSYJIrvhBHJO1" target="_blank">Nijanga nenena</a></li>
+                        <li class="list-group-item"><a href="https://youtu.be/OCg6BWlAXSw?si=GwSSqwqui0btKL4f" target="_blank">Samajagaravamana</a></li>
+                        <li class="list-group-item"><a href="https://youtu.be/oMwyxM9MZ50?si=RyFh7WGhoZKkaLSc" target="_blank">Dheera dheera</a></li>
+                        <li class="list-group-item"><a href="https://youtu.be/NPnxw00z63I?si=JZFcMgRtUqPs1YFi" target="_blank">Violin song</a></li>
+                        <li class="list-group-item"><a href="https://youtu.be/F67EVY_sg4E?si=9hxPPWj0ukrl88DS" target="_blank">Dheevara</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
