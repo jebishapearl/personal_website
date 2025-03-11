@@ -27,9 +27,9 @@
             <!-- Book List -->
             <div class="col-md-4">
                 <ul class="list-group" id="bookList">
-                    <li class="list-group-item" onclick="showDetails('Murder of Roger Ackroyd', 'Agatha Christie', './roger.jpeg', '*The Murder of Roger Ackroyd* by Agatha Christie is a classic whodunit that redefined detective fiction. When wealthy businessman Roger Ackroyd is found murdered in his study, the small village of King’s Abbot is shaken. Enter Hercule Poirot, the legendary detective, who must untangle a web of secrets, deception, and unexpected twists. With an iconic ending that shocked readers, this novel remains one of Christie’s most brilliant and ingenious mysteries.')">Murder of Roger Ackroyd</li>
-                    <li class="list-group-item" onclick="showDetails('And Then There Were None', 'Agatha Christie', './and_none.jpeg', '*And Then There Were None* is more than just a murder mystery—it’s a chilling exploration of justice, guilt, and human nature. Agatha Christie crafts a tense psychological thriller where ten strangers, each with a dark secret, are lured to a secluded island. As they start dying one by one, the novel delves into themes of morality and retribution, forcing characters—and readers—to question who truly deserves punishment. Beneath its gripping mystery lies a haunting social commentary on how justice can be manipulated and the weight of an unpunished crime.')">And Then There Were None</li>
-                    <li class="list-group-item" onclick="showDetails('A Thousand Splendid Suns', 'Khaled Hosseini', './thousplendid.jpeg', '*A Thousand Splendid Suns* by Khaled Hosseini is a heartbreaking yet powerful tale of resilience, love, and survival. Set in Afghanistan, it follows the lives of Mariam and Laila—two women from different backgrounds whose fates intertwine through war, loss, and an oppressive society. Despite their struggles, they form an unbreakable bond, finding strength in each other. The novel beautifully captures the pain of sacrifice, the cruelty of war, and the enduring power of hope.')">A Thousand Splendid Suns</li>
+                    <li class="list-group-item" onclick="showDetails('Murder of Roger Ackroyd', 'Agatha Christie', './roger.jpeg', '<strong>The Murder of Roger Ackroyd</strong> by Agatha Christie is a classic whodunit that redefined detective fiction. When wealthy businessman Roger Ackroyd is found murdered in his study, the small village of King’s Abbot is shaken. Enter Hercule Poirot, the legendary detective, who must untangle a web of secrets, deception, and unexpected twists. With an iconic ending that shocked readers, this novel remains one of Christie’s most brilliant and ingenious mysteries.')">Murder of Roger Ackroyd</li>
+                    <li class="list-group-item" onclick="showDetails('And Then There Were None', 'Agatha Christie', './and_none.jpeg', '<strong>And Then There Were None</strong> is more than just a murder mystery—it’s a chilling exploration of justice, guilt, and human nature. Agatha Christie crafts a tense psychological thriller where ten strangers, each with a dark secret, are lured to a secluded island. As they start dying one by one, the novel delves into themes of morality and retribution, forcing characters—and readers—to question who truly deserves punishment. Beneath its gripping mystery lies a haunting social commentary on how justice can be manipulated and the weight of an unpunished crime.')">And Then There Were None</li>
+                    <li class="list-group-item" onclick="showDetails('A Thousand Splendid Suns', 'Khaled Hosseini', './thousplendid.jpeg', '<strong>A Thousand Splendid Suns</strong> by Khaled Hosseini is a heartbreaking yet powerful tale of resilience, love, and survival. Set in Afghanistan, it follows the lives of Mariam and Laila—two women from different backgrounds whose fates intertwine through war, loss, and an oppressive society. Despite their struggles, they form an unbreakable bond, finding strength in each other. The novel beautifully captures the pain of sacrifice, the cruelty of war, and the enduring power of hope.')">A Thousand Splendid Suns</li>
 
                     <li class="list-group-item text-muted" onclick="showDetails('', '', '', '')"> (Coming Soon)</li>
                     <li class="list-group-item text-muted" onclick="showDetails('', '', '', '')"> (Coming Soon)</li>
@@ -46,5 +46,11 @@
             </div>
         </div>
     </div>
+    <div id="footer"></div>
+<script>
+    fetch("../../footer.html") 
+    .then(response => response.text())
+    .then(data => document.getElementById("footer").innerHTML = data);
+</script>
 </body>
 </html>
