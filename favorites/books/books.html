@@ -11,7 +11,7 @@
             document.getElementById('bookTitle').textContent = title;
             document.getElementById('bookAuthor').textContent = author;
             document.getElementById('bookImage').src = imgSrc ? imgSrc : "#";
-            document.getElementById('bookDescription').textContent = description;
+            document.getElementById('bookDescription').innerHTML = description;
             let bookImage = document.getElementById('bookImage');
     if (imgSrc === "./click.jpeg") {
         bookImage.classList.add("click-icon");
