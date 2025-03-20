@@ -22,11 +22,17 @@
     <style>
         body {
             color: white;
-            display: flex;
+            
             background: linear-gradient(to right, #000000, #013220, #556b2f);
             
             
         }
+
+        .main-container {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
         .sidebar {
             color: white;
             width: 280px;
@@ -64,11 +70,18 @@ a {
     color: wheat !important; /* Changes color to wheat on hover */
 }
 
+        footer {
+    text-align: center;
+    padding: 10px;
+   
+    color: white;
+}
+
         
     </style>
 </head>
 <body>
-
+<div class="main-container">
     <!-- Sidebar -->
     <div class="sidebar">
         <a href="#" class="d-flex align-items-center pb-3 mb-3  text-decoration-none border-bottom">
@@ -138,6 +151,7 @@ a {
             I hope you find something that sparks your curiosity.  
             After all, technology and storytelling aren’t so different—they both shape the way we experience the world.  
         </p>
+    </div>
     </div>
 
     <!-- Bootstrap JS -->
